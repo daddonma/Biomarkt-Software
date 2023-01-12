@@ -37,6 +37,10 @@ namespace Biomarkt_Software
                 loadingbarTimer.Stop();
 
                 //Finished Loading
+                MainMenuScreen mainMenu = new MainMenuScreen();
+                mainMenu.Show();
+
+                this.Hide();
             }
         }
 
