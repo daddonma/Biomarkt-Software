@@ -16,5 +16,15 @@ namespace Biomarkt_Software
         {
             InitializeComponent();
         }
+
+        private void btnProducts_Click(object sender, EventArgs e)
+        {
+
+            ProductScreen ps = new ProductScreen();
+            ps.Show();
+
+            this.Hide();
+    
+        }
     }
 }

@@ -45,6 +45,7 @@ namespace Biomarkt_Software
             this.btnProducts.TabIndex = 0;
             this.btnProducts.Text = "Produkte Verwalten";
             this.btnProducts.UseVisualStyleBackColor = true;
+            this.btnProducts.Click += new System.EventHandler(this.btnProducts_Click);
             // 
             // btnBill
             // 
